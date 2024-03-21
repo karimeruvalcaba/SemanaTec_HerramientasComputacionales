@@ -1,6 +1,10 @@
-from random import randrange
+from random import randrange, choice
 from turtle import *
 from freegames import square, vector
+
+colors = ['blue', 'green', 'yellow', 'purple', 'orange']  # Available colors for snake and food
+snake_color = choice(colors)  # Random color for the snake
+food_color = choice([color for color in colors if color != snake_color and color != 'red'])  # Random color for the food, different from snake and not red
 
 food = vector(0, 0)
 snake = [vector(10, 0)]
@@ -34,7 +38,7 @@ def move():
     head.move(aim)
 
     if not inside(head) or head in snake:
-        square(head.x, head.y, 9, 'red')
+        square(head.x, head.y, 9, 'red')  # Red color for collision
         update()
         return
 
@@ -49,9 +53,8 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
-
-    square(food.x, food.y, 9, 'green')
+        square(body.x, body.y, 9, snake_color)  # Snake color
+    square(food.x, food.y, 9, food_color)  # Food color
     update()
     ontimer(move, 100)
 
