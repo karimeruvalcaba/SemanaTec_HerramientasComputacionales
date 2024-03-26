@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="WikiPage.css">
+  <title>Jim Moriarty</title>
+  <!-- Include Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">Jim Moriarty</h1>                  
+                <h2 class="text-center"><em>Lord of Crime</em></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://i.pinimg.com/564x/49/9b/b5/499bb5946ca2810c2ff72d79aa61f718.jpg" alt="Moriarty_image">
+                            <div class="caption text-center">Jim Moriarty after breaking into the crown jewels room.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p>James "Jim" Moriarty was the world's only "consulting criminal"; a stark contrast to his arch nemesis is Sherlock Holmes' similarly 
+                            unrivaled "consulting detective" occupation.
+                        </p>
+                        <p>Just like Sherlock Holmes, Moriarty was highly intelligent, a master manipulator, making it even more difficult for 
+                            Sherlock to predict his next move. Other personality traits are machiavellianness, cunning, and short-tempered.
+                        </p>
+                        <p>Moriarty was obsessed with Sherlock Holmes, enjoying his role as a villain showing indifference to others' 
+                            lives. He killed or organized the murder of innocents as a hobby. Moriarty thought of life as boring, using
+                             Holmes as a source of entertainment. Therefore, when felt he had defeated Holmes, he did not hesitate to 
+                             commit suicide. Thus, being Holmes' nemesis was his only life purpose, convinced that if he killed himself, 
+                             Sherlocks' fate would be forced to follow the same path.
+                        </p>                        
+                        <p>He is extremely arrogant. Moriarty thought of himself as the perfect opponent to Holmes given his clever 
+                            strategies and intellectual genius. Often, he displayed a lack of social connection, as well as extreme 
+                            psychopathy and narcissism. Another Moriarty staple is ruthlessness, leaving sarcasm, irony, and a sadistic 
+                            sense of humor in every appearance, having a habit of intimidating or picking on his rivals.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-sm-offset-1 col-md-12 col-md-offset-2">
+                     <script>
+
+                        var timelineClicked = false;
+                        var spanishClicked = false;
+                        var isSpanish = false;
+                        var spanishMode = false;
+
+
+                            function displayCrimeTimeline(language = 'english') {
+                                var timelineContent = {
+                                    'english': `
+                            <h3>Here's a time line of Moriarty's crimes against humanity:</h3>
+                              <li><strong>1989</strong> - He murdered Carl Powers (S1E3), kept the boy's slippers, 
+                              and years later left them at 221C Baker Street to give Sherlock Holmes a case.</li>
+                              <li><strong>S1E1</strong> - He hired a taxi driver, Jeff Hope, as a junior. He would send 
+                              money to his children every time he murdered a taxi customer with the pills.</li>
+                              <li><strong>S1E2</strong> - The mastermind behind the Chinese smuggling ring, when it 
+                              is discovered, assassinates General Shan to ensure that his identity is not revealed.</li>
+                              <li><strong>S1E3</strong> - Set on meeting his rival, Moriarty disguises himself as gay and gets a job in Bart's hospital
+                              as an IT technician. </li>					 
+                              <li><strong>S1E3</strong> - He set up a series of deduction challenges, incentivizing Sherlock with the promise of bombing 
+                              civilians if he fails to solve them in time. One of the hostages began to describe his voice, which made him break the 
+                              rules of the game and execute her.</li>
+                              <li><strong>S1E3</strong> - He offers a meet-up with Sherlock at the pool where Powers died, where he straps his friend and flatmate John Watson with 
+                              explosives. This serves as a threat to Sherlock to back down or he'll "burn the heart out of [him]". </li>
+                              <li><strong>S2E1</strong> - In the pool meet-up, he changes his mind last minute and has snipers aiming at Holmes and Watson claiming "they cannot be 
+                              allowed to continue". Then, he receives a call from Irene Adler that causes him to have a change of heart and delay their deaths.</li>					 
+                              <li><strong>S2E1</strong> - He advises Irene Adler on how to play "The Homes Boys". He asks for nothing in return, doing it for fun. </li>					 
+                              <li><strong>S2E3</strong> - He orchestrates a Robbery of the National Bank and the Crown Jewels, as well as a Breakin of Pentonville 
+                              Prison through the usage of an "app".</li>
+                              <li><strong>S2E3</strong> - He is absolved of all his crimes due to a lack of evidence and an extortion of the jury
+                              using his criminal network.</li>
+                              <li><strong>S2E3</strong> - Later, frames Sherlock Holmes for these crimes,  alleging he made them all up to create 
+                              this "genius detective" persona and invented Moriarty, in reality, he is a hired actor "Richard Brook". </li>					 
+                              <li><strong>S2E3</strong> - He commits suicide to ensure Sherlock will have no remedy but to jump to his death. Snipers 
+                              will not shoot at his friends as long as he lives. </li>					 
+                            `,
+                            'spanish': `
+                            <h3>Aquí está la línea de tiempo de los crímenes de Moriarty contra la humanidad:</h3>
+                            <ul>
+                                <li><strong>1989</strong> - Asesinó a Carl Powers (T1E3), se quedó con las zapatillas del niño y años más tarde las dejó en el 221C de Baker Street para darle un caso a Sherlock Holmes.</li>
+                                <li><strong>T1E1</strong> - Contrató a un taxista, Jeff Hope, cuando era junior. Enviaba dinero a sus hijos cada vez que asesinaba a un cliente de taxi con las pastillas.</li>
+                                <li><strong>T1E2</strong> - El cerebro detrás de la red de contrabando china, cuando es descubierto, asesina al general Shan para asegurarse de que su identidad no sea revelada.</li>
+                                <li><strong>T1E3</strong> - Decidido a conocer a su rival, Moriarty se disfraza de gay y consigue un trabajo en el hospital de Bart.
+                                como técnico informático. </li>
+                                <li><strong>T1E3</strong> - Estableció una serie de desafíos de deducción, incentivando a Sherlock con la promesa de bombardear a civiles si no logra resolverlos a tiempo. Uno de los rehenes empezó a describir su voz, lo que le hizo romper las reglas del juego y ejecutarla.</li>
+                                <li><strong>T1E3</strong> - Ofrece un encuentro con Sherlock en la piscina donde murió Powers, donde ata a su amigo y compañero de piso John Watson con explosivos. Esto sirve como una amenaza para que Sherlock dé marcha atrás o "le quemará el corazón". </li>
+                                <li><strong>T2E1</strong> - En la reunión de la piscina, cambia de opinión en el último minuto y tiene francotiradores apuntando a Holmes y Watson diciendo que "no se les puede permitir continuar". Luego, recibe una llamada de Irene Adler que le hace cambiar de opinión y retrasar su muerte.</li>
+                                <li><strong>T2E1</strong> - Aconseja a Irene Adler sobre cómo jugar con "Los Muñecos Holmes". No pide nada a cambio y lo hace por diversión. </li>
+                                <li><strong>T2E3</strong> - Orquesta un robo del Banco Nacional y las Joyas de la Corona, así como un allanamiento de la prisión de Pentonville mediante el uso de una "aplicación".</li>
+                                <li><strong>T2E3</strong> - Es absuelto de todos sus delitos por falta de pruebas y extorsión al jurado.
+                                utilizando su red criminal.</li>
+                                <li><strong>T2E3</strong> - Más tarde, incrimina a Sherlock Holmes por estos crímenes, alegando que los inventó todos para crear este personaje de "detective genio" e inventó a Moriarty; en realidad, es un actor contratado "Richard Brook". ". </li>
+                                <li><strong>T2E3</strong> - Se suicida para asegurarse de que Sherlock no tenga más remedio que saltar a la muerte. Los francotiradores no dispararán contra sus amigos mientras él viva. </li>
+                          `
+                        };
+
+                        var timelineContainer = document.getElementById("demo");
+
+                        if (timelineContainer) {
+                          timelineContainer.innerHTML = timelineContent[language];
+                      }
+                      timelineClicked = true;
+                      checkIfBothClicked();
+                          }
+
+                        function translateToSpanish() {
+                          document.documentElement.lang = 'es';
+                          document.querySelector('h1').innerText = 'Jim Moriarty'; // Example translation
+                          document.querySelector('h2').innerText = 'Lord del Crimen'; // Example translation
+                          document.querySelector('blockquote p').innerText = '"Todo cuento de hadas necesita un buen villano a la antigua. Me necesitas, o no eres nada."'; // Example translation
+                          document.querySelector('blockquote footer cite').innerText = 'Jim Moriarty a Sherlock (S2E3)'; // Example translation
+                          var paragraphs = document.querySelectorAll('p');
+                          paragraphs.forEach(function(paragraph) {
+                            switch (paragraph.innerText.trim()) {
+                              case 'James "Jim" Moriarty was the world\'s only "consulting criminal"; a stark contrast to his arch nemesis is Sherlock Holmes\' similarly unrivaled "consulting detective" occupation.':
+                                paragraph.innerText = 'James "Jim" Moriarty era el único "criminal consultor" del mundo; un marcado contraste con su archienemigo es la igualmente inigualable ocupación de "detective consultor" de Sherlock Holmes.';
+                                break;
+                              case 'Just like Sherlock Holmes, Moriarty was highly intelligent, a master manipulator, making it even more difficult for Sherlock to predict his next move. Other personality traits are machiavellianness, cunning, and short-tempered.':
+                                paragraph.innerText = 'Al igual que Sherlock Holmes, Moriarty era altamente inteligente, un maestro manipulador, lo que dificultaba aún más para Sherlock prever su próximo movimiento. Otras características de su personalidad son el maquiavelismo, la astucia y el  mal genio.';
+                                break;
+                              case 'Moriarty was obsessed with Sherlock Holmes, enjoying his role as a villain showing indifference to others\' lives. He killed or organized the murder of innocents as a hobby. Moriarty thought of life as boring, using Holmes as a source of entertainment. Therefore, when felt he had defeated Holmes, he did not hesitate to commit suicide. Thus, being Holmes\' nemesis was his only life purpose, convinced that if he killed himself, Sherlocks\' fate would be forced to follow the same path.':
+                                paragraph.innerText = 'Moriarty estaba obsesionado con Sherlock Holmes, disfrutando de su papel como villano mostrando indiferencia hacia las vidas de los demás. Asesinó u organizó el asesinato de inocentes como pasatiempo. Moriarty pensaba que la vida era aburrida, usando a Holmes como fuente de entretenimiento. Por lo tanto, cuando sintió que había derrotado a Holmes, no dudó en suicidarse. Así, ser el némesis de Holmes fue su único propósito para continuar, convencido de que si terminaba con su vida, el destino de Sherlock seguiría el mismo camino.';
+                                break;
+                              case 'He is extremely arrogant. Moriarty thought of himself as the perfect opponent to Holmes given his clever strategies and intellectual genius. Often, he displayed a lack of social connection, as well as extreme psychopathy and narcissism. Another Moriarty staple is ruthlessness, leaving sarcasm, irony, and a sadistic sense of humor in every appearance, having a habit of intimidating or picking on his rivals.':
+                                paragraph.innerText = 'Es extremadamente arrogante. Moriarty se consideraba a sí mismo como el oponente perfecto para Holmes dadas sus estrategias ingeniosas y su genio intelectual. A menudo, mostraba una falta de conexión social, así como una extrema psicopatía y narcisismo. Otro pilar de Moriarty es la crueldad, dejando sarcasmo, ironía y un humor sádico en cada aparición, con el hábito de intimidar o burlarse de sus rivales.';
+                                break;
+                            }
+                          })
+                          var caption = document.querySelector('.caption.text-center');
+                          if (caption.innerText.trim() === 'Jim Moriarty after breaking into the crown jewels room.') {
+                            caption.innerText = 'Jim Moriarty después de irrumpir en la sala de las joyas de la corona.';
+                          }
+                          
+                          var Link = document.querySelector('h3 a');
+                          Link.innerText = "Para saber más de la vida de Moriarty..."; 
+                          Link.href = "https://sherlockholmes.fandom.com/es/wiki/Jim_Moriarty"; 
+                          spanishClicked = true;
+                          checkIfBothClicked();
+                          isSpanish = !isSpanish;
+                          if (isSpanish) {
+                              TimelineButton.textContent = 'Ver linea del tiempo';
+                              SpanishButton.textContent = 'Estas en castellano';
+                          } else {
+                              TimelineButton.textContent = 'Display Crime Timeline';
+                              SpanishButton.textContent = 'Translate to Spanish';
+                          }
+                        }
+                          function checkIfBothClicked() {
+                            if (timelineClicked && spanishClicked) {
+                              displayCrimeTimeline('spanish');
+                            }
+                          }
+                      </script>
+                     <blockquote><p>  " Every fairytale needs a good old-fashioned villian. You need me, or you're nothing."</p>
+                     <footer><cite>Jim Moriarty to Sherlock (S2E3.)</cite></footer>
+                    </blockquote>
+                     <div class="container">
+                        <!-- Other content -->
+                        <button id="TimelineButton">Display Crime Timeline</button>
+                        <button id="SpanishButton">Translate to Spanish</button>
+                        <p id="demo"></p>
+                      </div>
+
+                     </blockquote>
+                     <h3><a href="https://bakerstreet.fandom.com/wiki/Jim_Moriarty">If you want to know more of the life of Moriarty</a></h3>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="index.js"></script>
+                </body>
+                </html>
+              

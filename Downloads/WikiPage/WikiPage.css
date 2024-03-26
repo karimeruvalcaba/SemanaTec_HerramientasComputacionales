@@ -1,0 +1,68 @@
+body{
+	margin-top:5%;
+}
+img{
+	width:100%;
+}
+
+.jumbotron {
+    background-color: #f0f1f3;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h2 {
+    color: #6c757d;
+}
+
+blockquote {
+    background-color: #f0f1f3;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    margin-top: 20px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+button {
+    background-color: #cfe2ff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #93bce9;
+}

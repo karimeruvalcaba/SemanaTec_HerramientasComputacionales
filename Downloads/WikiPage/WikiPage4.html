@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Text from en1.txt</title>
+</head>
+<body>
+
+<div id="textContainer">
+  <!-- Text from en1.txt will be displayed here -->
+</div>
+<div id="englishContainer" style="display: none;">
+  <!-- Text from english.txt will be displayed here -->
+</div>
+<button id="toggleButton" onclick="toggleLanguage()">Display Timeline</button>
+<button id="switchButton" onclick="switchLanguage()">Switch Language</button>
+
+<script>
+window.onload = function() {
+  fetchText('en1.txt', 'textContainer');
+};
+
+var currentLanguage = 'english';
+
+function toggleLanguage() {
+  var englishContainer = document.getElementById("englishContainer");
+  var toggleButton = document.getElementById("toggleButton");
+
+  if (currentLanguage === 'english') {
+    fetchText('english.txt', 'englishContainer');
+    englishContainer.style.display = 'block';
+    toggleButton.textContent = 'Hide Timeline';
+    currentLanguage = 'spanish';
+  } else {
+    englishContainer.style.display = 'none';
+    toggleButton.textContent = 'Display Timeline';
+    currentLanguage = 'english';
+  }
+}
+
+function switchLanguage() {
+  var textContainer = document.getElementById("textContainer");
+  var switchButton = document.getElementById("switchButton");
+
+  if (currentLanguage === 'english') {
+    fetchText('es1.txt', 'textContainer');
+    fetchText('spanish.txt', 'englishContainer');
+    switchButton.textContent = 'Switch to English';
+    currentLanguage = 'spanish';
+  } else {
+    fetchText('en1.txt', 'textContainer');
+    fetchText('english.txt', 'englishContainer');
+    switchButton.textContent = 'Switch to Spanish';
+    currentLanguage = 'english';
+  }
+}
+
+function fetchText(file, containerId) {
+  fetch(file)
+    .then(response => response.text())
+    .then(text => {
+      document.getElementById(containerId).innerHTML = text;
+    })
+    .catch(error => console.error('Error fetching text:', error));
+}
+</script>
+
+</body>
+</html>

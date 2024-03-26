@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Display Text from en1.txt</title>
+</head>
+<body>
+
+<div id="textContainer">
+  <!-- Text from en1.txt will be displayed here -->
+</div>
+
+<script>
+window.onload = function() {
+  // Fetching the content of en1.txt using Fetch API
+  fetch('en1.txt')
+    .then(response => response.text())
+    .then(text => {
+      // Putting the fetched text into the text container
+      document.getElementById('textContainer').innerHTML = text;
+    })
+    .catch(error => console.error('Error fetching en1.txt:', error));
+};
+</script>
+
+</body>
+</html>

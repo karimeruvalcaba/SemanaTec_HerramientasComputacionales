@@ -1,0 +1,17 @@
+ <h3>Aquí está la línea de tiempo de los crímenes de Moriarty contra la humanidad:</h3>
+                            <ul>
+                                <li><strong>1989</strong> - Asesinó a Carl Powers (T1E3), se quedó con las zapatillas del niño y años más tarde las dejó en el 221C de Baker Street para darle un caso a Sherlock Holmes.</li>
+                                <li><strong>T1E1</strong> - Contrató a un taxista, Jeff Hope, cuando era junior. Enviaba dinero a sus hijos cada vez que asesinaba a un cliente de taxi con las pastillas.</li>
+                                <li><strong>T1E2</strong> - El cerebro detrás de la red de contrabando china, cuando es descubierto, asesina al general Shan para asegurarse de que su identidad no sea revelada.</li>
+                                <li><strong>T1E3</strong> - Decidido a conocer a su rival, Moriarty se disfraza de gay y consigue un trabajo en el hospital de Bart.
+                                como técnico informático. </li>
+                                <li><strong>T1E3</strong> - Estableció una serie de desafíos de deducción, incentivando a Sherlock con la promesa de bombardear a civiles si no logra resolverlos a tiempo. Uno de los rehenes empezó a describir su voz, lo que le hizo romper las reglas del juego y ejecutarla.</li>
+                                <li><strong>T1E3</strong> - Ofrece un encuentro con Sherlock en la piscina donde murió Powers, donde ata a su amigo y compañero de piso John Watson con explosivos. Esto sirve como una amenaza para que Sherlock dé marcha atrás o "le quemará el corazón". </li>
+                                <li><strong>T2E1</strong> - En la reunión de la piscina, cambia de opinión en el último minuto y tiene francotiradores apuntando a Holmes y Watson diciendo que "no se les puede permitir continuar". Luego, recibe una llamada de Irene Adler que le hace cambiar de opinión y retrasar su muerte.</li>
+                                <li><strong>T2E1</strong> - Aconseja a Irene Adler sobre cómo jugar con "Los Muñecos Holmes". No pide nada a cambio y lo hace por diversión. </li>
+                                <li><strong>T2E3</strong> - Orquesta un robo del Banco Nacional y las Joyas de la Corona, así como un allanamiento de la prisión de Pentonville mediante el uso de una "aplicación".</li>
+                                <li><strong>T2E3</strong> - Es absuelto de todos sus delitos por falta de pruebas y extorsión al jurado.
+                                utilizando su red criminal.</li>
+                                <li><strong>T2E3</strong> - Más tarde, incrimina a Sherlock Holmes por estos crímenes, alegando que los inventó todos para crear este personaje de "detective genio" e inventó a Moriarty; en realidad, es un actor contratado "Richard Brook". ". </li>
+                                <li><strong>T2E3</strong> - Se suicida para asegurarse de que Sherlock no tenga más remedio que saltar a la muerte. Los francotiradores no dispararán contra sus amigos mientras él viva. </li>
+                        

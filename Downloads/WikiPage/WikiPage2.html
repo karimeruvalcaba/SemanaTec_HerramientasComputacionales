@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Switcher</title>
+</head>
+<body>
+<div id="content">
+</div>
+<button id="toggleButton" onclick="toggleLanguage()">Switch Language</button>
+
+<script>
+  var isSpanish = false;
+
+  function toggleLanguage() {
+    var textElement = document.getElementById("text");
+    var toggleButton = document.getElementById("toggleButton");
+
+    if (isSpanish) {
+      fetchContent('english.txt', textElement, toggleButton, 'Switch Language', false);
+    } else {
+      fetchContent('spanish.txt', textElement, toggleButton, 'Cambiar Idioma', true);
+    }
+  }
+
+  function fetchContent(file, textElement, toggleButton, buttonText, languageFlag) {
+    fetch(file)
+    .then(response => response.text())
+    .then(text => {
+      textElement.innerHTML = text;
+      toggleButton.textContent = buttonText;
+      isSpanish = languageFlag;
+    })
+    .catch(error => console.error('Error fetching text:', error));
+  }
+</script>
+
+</body>
+</html>

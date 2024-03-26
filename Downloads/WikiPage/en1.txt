@@ -1,0 +1,17 @@
+                        <p>James "Jim" Moriarty was the world's only "consulting criminal"; a stark contrast to his arch nemesis is Sherlock Holmes' similarly 
+                            unrivaled "consulting detective" occupation.
+                        </p>
+                        <p>Just like Sherlock Holmes, Moriarty was highly intelligent, a master manipulator, making it even more difficult for 
+                            Sherlock to predict his next move. Other personality traits are machiavellianness, cunning, and short-tempered.
+                        </p>
+                        <p>Moriarty was obsessed with Sherlock Holmes, enjoying his role as a villain showing indifference to others' 
+                            lives. He killed or organized the murder of innocents as a hobby. Moriarty thought of life as boring, using
+                             Holmes as a source of entertainment. Therefore, when felt he had defeated Holmes, he did not hesitate to 
+                             commit suicide. Thus, being Holmes' nemesis was his only life purpose, convinced that if he killed himself, 
+                             Sherlocks' fate would be forced to follow the same path.
+                        </p>                        
+                        <p>He is extremely arrogant. Moriarty thought of himself as the perfect opponent to Holmes given his clever 
+                            strategies and intellectual genius. Often, he displayed a lack of social connection, as well as extreme 
+                            psychopathy and narcissism. Another Moriarty staple is ruthlessness, leaving sarcasm, irony, and a sadistic 
+                            sense of humor in every appearance, having a habit of intimidating or picking on his rivals.
+                        </p>

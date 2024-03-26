@@ -1,0 +1,15 @@
+<h3>Here's a time line of Moriarty's crimes against humanity:</h3>
+<ul>
+      <li><strong>1989</strong> - He murdered Carl Powers (S1E3), kept the boy's slippers, and years later left them at 221C Baker Street to give Sherlock Holmes a case.</li>
+    <li><strong>S1E1</strong> - He hired a taxi driver, Jeff Hope, as a junior. He would send money to his children every time he murdered a taxi customer with the pills.</li>
+    <li><strong>S1E2</strong> - The mastermind behind the Chinese smuggling ring, when it is discovered, assassinates General Shan to ensure that his identity is not revealed.</li>
+    <li><strong>S1E3</strong> - Set on meeting his rival, Moriarty disguises himself as gay and gets a job in Bart's hospital as an IT technician.</li>
+    <li><strong>S1E3</strong> - He set up a series of deduction challenges, incentivizing Sherlock with the promise of bombing civilians if he fails to solve them in time. One of the hostages began to describe his voice, which made him break the rules of the game and execute her.</li>
+    <li><strong>S1E3</strong> - He offers a meet-up with Sherlock at the pool where Powers died, where he straps his friend and flatmate John Watson with explosives. This serves as a threat to Sherlock to back down or he'll "burn the heart out of [him]".</li>
+    <li><strong>S2E1</strong> - In the pool meet-up, he changes his mind last minute and has snipers aiming at Holmes and Watson claiming "they cannot be allowed to continue". Then, he receives a call from Irene Adler that causes him to have a change of heart and delay their deaths.</li>
+    <li><strong>S2E1</strong> - He advises Irene Adler on how to play "The Homes Boys". He asks for nothing in return, doing it for fun.</li>
+    <li><strong>S2E3</strong> - He orchestrates a Robbery of the National Bank and the Crown Jewels, as well as a Breakin of Pentonville Prison through the usage of an "app".</li>
+    <li><strong>S2E3</strong> - He is absolved of all his crimes due to a lack of evidence and an extortion of the jury using his criminal network.</li>
+    <li><strong>S2E3</strong> - Later, frames Sherlock Holmes for these crimes, alleging he made them all up to create this "genius detective" persona and invented Moriarty, in reality, he is a hired actor "Richard Brook".</li>
+    <li><strong>S2E3</strong> - He commits suicide to ensure Sherlock will have no remedy but to jump to his death. Snipers will not shoot at his friends as long as he lives.</li>
+</ul>
